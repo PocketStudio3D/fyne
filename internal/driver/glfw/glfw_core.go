@@ -7,4 +7,6 @@ import "github.com/go-gl/glfw/v3.2/glfw"
 func initWindowHints() {
 	glfw.WindowHint(glfw.ContextVersionMajor, 2)
 	glfw.WindowHint(glfw.ContextVersionMinor, 0)
+    glfw.WindowHint(glfw.Floating, glfw.True)
+    glfw.WindowHint(glfw.Decorated, glfw.False)
 }
